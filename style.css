@@ -1,0 +1,83 @@
+#display {
+    position: absolute;
+    top:0px;
+    left: 0px;
+    width: 100vw;
+    border: 1px solid black;
+    
+}
+
+#background {
+    position: relative;
+    height: 300px;
+    width: 100%;
+    background-image:;
+}
+
+#title {
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    font-size: 30px; 
+    border-bottom:1px solid;
+    border-bottom-color: grey;
+}
+
+#decription {
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    margin-top: 15px;
+}
+
+
+
+#control {
+    width: 100px;
+    height: auto;
+    position: fixed;
+    text-align: center;
+    bottom:-125px;
+    left:50%;
+    border: 1px solid black;
+    transition: 2s;
+    z-index: 100;
+}
+
+
+
+#conrolButton {
+    bottom:0px;
+    position: relative;
+}
+
+
+.bgButton {
+    width: 100%;
+}
+
+
+
+.thumbBG {
+    display:inline-block;
+    position: relative;
+    height: 300px;
+    width: 100%;
+    background-image:;
+}
+
+.thumbTitle {
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    font-size: 30px; 
+    border-bottom:1px solid;
+    border-bottom-color: grey;
+}
+
+.thumbDesc {
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    margin-top: 15px;
+}
